@@ -12,7 +12,7 @@ pipelineJob('Pull_push-job-docker') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/abhimanyura/springMicroservice.git'
                     }
                     branch 'master'
                     scriptPath('Jenkinsfile-docker')
